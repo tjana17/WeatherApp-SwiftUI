@@ -23,6 +23,7 @@
 		FF9894D32BC9249B00FC0508 /* PreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9894D22BC9249B00FC0508 /* PreviewModel.swift */; };
 		FF9894D52BC9265E00FC0508 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = FF9894D42BC9265E00FC0508 /* weatherData.json */; };
 		FFB54E4F2BDA68AE00580183 /* forecastData.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB54E4E2BDA68AE00580183 /* forecastData.json */; };
+		FFFD8ABB2BE8EE72009DE63D /* WeeklyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD8ABA2BE8EE72009DE63D /* WeeklyForecastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		FF9894D22BC9249B00FC0508 /* PreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModel.swift; sourceTree = "<group>"; };
 		FF9894D42BC9265E00FC0508 /* weatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
 		FFB54E4E2BDA68AE00580183 /* forecastData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecastData.json; sourceTree = "<group>"; };
+		FFFD8ABA2BE8EE72009DE63D /* WeeklyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyForecastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				FF98949A2BC916CC00FC0508 /* ContentView.swift */,
 				FF9894CE2BC9218200FC0508 /* WelcomeView.swift */,
 				FF9894D02BC923E300FC0508 /* WeatherView.swift */,
+				FFFD8ABA2BE8EE72009DE63D /* WeeklyForecastView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				FF9894CC2BC91DEF00FC0508 /* Extensions.swift in Sources */,
 				FF9894992BC916CC00FC0508 /* WeatherApp_SwiftUIApp.swift in Sources */,
 				FF9894C52BC9171B00FC0508 /* LocationManager.swift in Sources */,
+				FFFD8ABB2BE8EE72009DE63D /* WeeklyForecastView.swift in Sources */,
 				FF9894C72BC9184F00FC0508 /* OpenWeatherAPI.swift in Sources */,
 				FF9894D32BC9249B00FC0508 /* PreviewModel.swift in Sources */,
 				FF9894CA2BC918CD00FC0508 /* OpenWeatherModel.swift in Sources */,

@@ -54,6 +54,19 @@ extension Date {
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)
     }
+    func stringFromDateYear(format: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd MMM YYYY"
+        let date = formatter.string(from: format)
+        return date
+    }
+    
+    func stringYearMonthDate(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "YYYY-MM-dd"
+        let dateStr = formatter.string(from: date)
+        return dateStr
+    }
 }
 
 extension UnixTimestamp {
