@@ -11,7 +11,7 @@ import CoreLocation
 class OpenWeatherAPI {
     
     var baseURL = "https://api.openweathermap.org/data/2.5"
-    let apiKey = "YOURAPIKEY"
+    let apiKey = "325104e7c3352e849fcb468f29b137e7"
     
     //MARK: - Get Weather API
     func getCurrentWeatherAPI(_ latitude: CLLocationDegrees, _ longitude: CLLocationDegrees) async throws -> OpenWeatherModel {
